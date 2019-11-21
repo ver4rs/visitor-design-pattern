@@ -1,0 +1,140 @@
+html, body {
+    background-color: #fff;
+    color: #4a5256;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 46px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 960px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+table tr td {
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    margin: 0;
+    padding: 7px 5px;
+    text-align: left;
+}
+
+table tr th {
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+th.center, td.center {
+    text-align: center;
+}
+
+div.form-wrapper {
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+}
+
+a.btn {
+    background: #646464;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    outline: 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+a.btn:hover {
+    background: #aaaaaa;
+    color: #000;
+}
+
+p.hint {
+    color: #828282;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+div.order-info {
+    max-width: 370px;
+}
+
+div.order-info dl dt {
+    font-weight: bold;
+    float: left;
+    min-width: 120px;
+}
+
+div.order-info dl dt {
+    float: left;
+    max-width: 250px;
+}
+
+span.total-price {
+    float: right;
+    padding: 15px 0;
+}
+
+pre {
+    background: #efefef;
+}
